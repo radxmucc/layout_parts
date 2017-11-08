@@ -1,5 +1,39 @@
 @charset "UTF-8";
 
-/* 回答はここに書いてね */
+.wrapper {
+  padding: 20px;
+}
 
-/* 回答はここに書いてね */
+.title {
+  padding: 30px 0;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.title--sub {
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.contents {
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #eff3f4;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.left {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.right {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
