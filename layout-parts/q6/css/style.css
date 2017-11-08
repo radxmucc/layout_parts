@@ -1,5 +1,195 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.small {
+  display: table;
+table-layout: fixed;
+text-align: center;
+width: 100%;
+}
 
-/* 回答はここに書いてね */
+.small1{
+         font-size:16px;
+         font-weight:bold;
+         text-decoration:none;
+         display: inline-block;
+         text-align:center;
+         padding:13px 15px;
+         color:#fff;
+         background-color:#00bcd4;
+         border-radius:3px;
+         float: ;
+         margin: 15px;
+}
+
+.small2 {
+         font-size:16px;
+         font-weight:bold;
+         text-decoration:none;
+         display: inline-block;
+         text-align:center;
+         padding:13px 15px;
+         color:#fff;
+         background-color:#ff4081;
+         border-radius:3px;
+         float: ;
+         margin: 15px;
+}
+
+.small3 {
+         font-size:16px;
+         font-weight:bold;
+         text-decoration:none;
+         display: inline-block;
+         text-align:center;
+         padding:13px 15px;
+         color:#fff;
+         background-color:#e5e5e5;
+         border-radius:3px;
+         float: ;
+         margin: 15px;
+}
+
+.small4 {
+         font-size:16px;
+         font-weight:bold;
+         text-decoration:none;
+         display: inline-block;
+         text-align:center;
+         padding:13px 15px;
+         color:#222;
+         background-color:#fff;
+         border-radius:3px;
+         box-shadow: 0 1px 6px;
+         float: ;
+         margin: 15px;
+}
+
+.middle {
+         display: table;
+         table-layout: fixed;
+         text-align: center;
+         width: 100%;
+}
+
+.middle1{
+         font-size:20px;
+         font-weight:bold;
+         text-decoration:none;
+         display: inline-block;
+         text-align:center;
+         padding:16px 20px;
+         color:#fff;
+         background-color:#00bcd4;
+         border-radius:5px;
+         float: ;
+         margin: 15px;
+}
+
+.middle2{
+         font-size:20px;
+         font-weight:bold;
+         text-decoration:none;
+         display: inline-block;
+         text-align:center;
+         padding:16px 20px;
+         color:#fff;
+         background-color:#ff4081;
+         border-radius:5px;
+         float: ;
+         margin: 15px;
+}
+
+.middle3{
+         font-size:20px;
+         font-weight:bold;
+         text-decoration:none;
+         display: inline-block;
+         text-align:center;
+         padding:16px 20px;
+         color:#fff;
+         background-color:#e5e5e5;
+         border-radius:5px;
+         float: ;
+         margin: 15px;
+}
+
+.middle4{
+         font-size:20px;
+         font-weight:bold;
+         text-decoration:none;
+         display: inline-block;
+         text-align:center;
+         padding:16px 20px;
+         color:#222;
+         background-color:#fff;
+         border-radius:5px;
+         float: ;
+         margin: 15px;
+         box-shadow: 0 1px 6px;
+}
+
+.large {
+        display: table;
+        table-layout: fixed;
+        text-align: center;
+        width: 100%;
+}
+
+.large1 {
+         font-size:24px;
+         font-weight:bold;
+         text-decoration:none;
+         display: inline-block;
+         text-align:center;
+         padding:19px 25px;
+         color:#fff;
+         background-color:#00bcd4;
+         border-radius:7px;
+         float: ;
+         margin: 15px;
+       }
+
+.large2 {
+          font-size:24px;
+          font-weight:bold;
+          text-decoration:none;
+          display: inline-block;
+          text-align:center;
+          padding:19px 25px;
+          color:#fff;
+          background-color:#ff4081;
+          border-radius:7px;
+          float: ;
+          margin: 15px;
+          }
+
+.large3 {
+          font-size:24px;
+          font-weight:bold;
+          text-decoration:none;
+          display: inline-block;
+          text-align:center;
+          padding:19px 25px;
+          color:#fff;
+          background-color:#e5e5e5;
+          border-radius:7px;
+          float: ;
+          margin: 15px;
+          }
+
+.large4 {
+         font-size: 24px;
+         font-weight:bold;
+         text-decoration:none;
+         display: inline-block;
+         text-align:center;
+         padding:19px 25px;
+         color:#222;
+         background-color:#fff;
+         border-radius:7px;
+         float: ;
+         margin: 15px;
+         box-shadow: 0 1px 6px;
+       }
+/* 回答はここに書いて
