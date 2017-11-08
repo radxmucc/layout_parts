@@ -1,5 +1,138 @@
 @charset "UTF-8";
 
-/* 回答はここに書いてね */
+.q5__horizontal {
+    width: 640px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    font-size: 0;
+    text-align: center;
+    background-color: #ECF1F2;
+}
+.q5__horizontal__box {
+    display: inline-block;
+    width: 300px;
+    margin: 0 10px;
+    padding: 10px 0;
+    background-color: #fff;
+    font-size: 16px;
+    text-align: center;
+  }
 
-/* 回答はここに書いてね */
+.te {
+    width: 90px;
+    margin: 0 auto;
+    top: 10px;
+    bottom: 10px;
+    background: #e6f2ff;
+    text-align: center;
+}
+
+.q5__horizontal__box1 {
+    display: inline-block;
+    width
+    : 300px;
+    margin: 0 10px;
+    padding: 10px 0;
+    background-color: #fff;
+    font-size: 16px;
+    text-align: left;
+  }
+
+
+.q5__horizontal > div { font-size: 16px; }
+.q5__box {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto ;
+    background-color: #ECF1F2;
+}
+
+.q5__vertical__table__inner {
+   text-align: center;
+   position: relative;
+   display: flex;
+   display: inline-block;
+   display: table-cell;
+   vertical-align: middle;
+   top: 40%;
+   left: 120px;
+   align-items: center;
+}
+
+.q5__vertical__table__txt {
+  background: #fff;
+  padding: 10px;
+}
+
+.q5box1 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 40%;
+  justify-content: center
+}
+
+.q5__vertical__table__txt1 {
+  background: #fff;
+  padding: 10px;
+}
+
+.q5__box__2{
+  width: 640px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  font-size: 0;
+  text-align: center;
+  background-color: #ECF1F2
+}
+
+.q5__box__inner {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  margin: 0 10px;
+  position: relative;
+  background-color: #FFF;
+  font-size: 16px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.boxinner {
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+  top: 45%;
+  left: 100px;
+}
+
+.q5__box__inner--stable {
+  width: 110px;
+  height: 30px;
+  background-color: #E6F2FF;
+}
+
+.q5__box__inner1 {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  margin: 0 10px;
+  position: relative;
+  background-color: #FFF;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.boxxinner1 {
+  display: inline-block;
+  text-align: center;
+}
+
+.q5__box__inner--flexible {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translateY(-40%,-30%);
+  background-color: #E6F2FF;
+}
