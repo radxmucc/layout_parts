@@ -1,5 +1,99 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.content {
+  width: 100%;
+  background: #ecf1f2;
+  display: grid;
+  display: inline-grid;
+  grid-template-rows: 50px;
+  grid-template-columns: 100%;
+}
+
+.item {
+  font-size: 16px;
+  text-align: center;
+  padding: 25px;
+  background: #fff;
+  margin: 20px;
+}
+
+
+.box2 {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.box3 {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.box4 {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.box5 {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.box6 {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.box7 {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.box8 {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.grid12 {
+  width: 100%;
+}
+
+.grid6 {
+  width: 50%;
+  float: left;
+}
+
+.grid4 {
+  width: 33%;
+  float: left;
+}
+
+.grid3 {
+  width: 25%;
+  float: left;
+}
+
+.grid24 {
+  width: 20%;
+  float: left;
+}
+
+.grid2 {
+  width: 16%;
+  float: left;
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+}
 
 /* 回答はここに書いてね */
