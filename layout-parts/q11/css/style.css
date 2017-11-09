@@ -3,7 +3,7 @@
 /* 回答はここに書いてね */
 
 .q11__trans {
-  position: relative;
+    position: relative;
     overflow: hidden;
     width: 500px;
     height: 333px;
@@ -35,7 +35,7 @@
 }
 
 .q11__mask__txt {
-  position: absolute;
+   position: absolute;
    width: 100%;
    bottom: 0;
    left: 0;
