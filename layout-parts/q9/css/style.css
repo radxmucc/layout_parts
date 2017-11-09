@@ -2,52 +2,58 @@
 
 /* 回答はここに書いてね */
 .content {
-   padding: 20px;
-   background: #ecf1f2;
+  padding: 20px;
+  background: #ecf1f2;
 }
 
 .item {
-   height: 50px;
-   font-size: 16px;
-   text-align: center;
-   background: #fff;
-   margin: 10px;
-   line-height: 50px;
+  height: 50px;
+  font-size: 16px;
+  text-align: center;
+  background: #fff;
+  margin: 10px;
+  line-height: 50px;
 }
 
 .box1 {
-   display: table;
-   table-layout: fixed;
-   width: 100%;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
 }
 
 .grid12 {
-   width: 100%;
+  width: 100%;
 }
 
 .grid6 {
-   width: 50%;
-   float: left;
+  width: 50%;
+  float: left;
 }
 
 .grid4 {
-   width: 33.33333%;
-   float: left;
+  width: 33.33333%;
+  float: left;
 }
 
 .grid3 {
-   width: 25%;
-   float: left;
+  width: 25%;
+  float: left;
 }
 
 .grid24 {
-   width: 20%;
-   display: inline-block;
+  width: 20%;
+  float: left;
 }
 
 .grid2 {
-   width: 16.66666%;
-   float: left;
+  width: 16.66666%;
+  float: left;
 }
 
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 /* 回答はここに書いてね */

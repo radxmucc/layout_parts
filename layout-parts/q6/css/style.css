@@ -1,171 +1,58 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.small {
-   display: table;
-   table-layout: fixed;
-   text-align: center;
-   width: 100%;
+.btn__content {
+  font-size: 0;
+  text-align: center;
 }
 
-.small1{
-   font-size:16px;
-   font-weight:bold;
-   display: inline-block;
-   text-align:center;
-   padding:13px 15px;
-   color:#fff;
-   background-color:#00bcd4;
-   border-radius:3px;
-   margin: 15px;
+.btn {
+  display: inline-block;
+  text-align: center;
 }
 
-.small2 {
-   font-size:16px;
-   font-weight:bold;
-   display: inline-block;
-   text-align:center;
-   padding:13px 15px;
-   color:#fff;
-   background-color:#ff4081;
-   border-radius:3px;
-   margin: 15px;
+.btn__small {
+  padding: 0 15px;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 10px;
 }
 
-.small3 {
-   font-size:16px;
-   font-weight:bold;
-   display: inline-block;
-   text-align:center;
-   padding:13px 15px;
-   color:#fff;
-   background-color:#e5e5e5;
-   border-radius:3px;
-   margin: 15px;
+.btn__middle {
+  padding: 0 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 32px;
+  margin: 10px;
 }
 
-.small4 {
-   font-size:16px;
-   font-weight:bold;
-   display: inline-block;
-   text-align:center;
-   padding:13px 15px;
-   color:#222;
-   background-color:#fff;
-   border-radius:3px;
-   box-shadow: 0 1px 6px;
-   margin: 15px;
+.btn__large {
+  padding: 0 25px;
+  border-radius: 7px;
+  font-size: 24px;
+  line-height: 38px;
+  margin: 10px;
 }
 
-.middle {
-   display: table;
-   table-layout: fixed;
-   text-align: center;
-   width: 100%;
+.btn__common {
+  background-color: #00bcd4;
+  color: #fff;
 }
 
-.middle1{
-   font-size:20px;
-   font-weight:bold;
-   display: inline-block;
-   text-align:center;
-   padding:16px 20px;
-   color:#fff;
-   background-color:#00bcd4;
-   border-radius:5px;
-   margin: 15px;
+.btn__error {
+  background-color: #ff4081;
+  color: #fff;
 }
 
-.middle2{
-   font-size:20px;
-   font-weight:bold;
-   display: inline-block;
-   text-align:center;
-   padding:16px 20px;
-   color:#fff;
-   background-color:#ff4081;
-   border-radius:5px;
-   margin: 15px;
+.btn__disabled {
+  background-color: #e5e5e5;
+  color: #fff;
 }
 
-.middle3{
-   font-size:20px;
-   font-weight:bold;
-   display: inline-block;
-   text-align:center;
-   padding:16px 20px;
-   color:#fff;
-   background-color:#e5e5e5;
-   border-radius:5px;
-   margin: 15px;
+.btn__shadow {
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .12),
+              0 1px 4px rgba(0, 0, 0, .12);
 }
 
-.middle4{
-   font-size:20px;
-   font-weight:bold;
-   display: inline-block;
-   text-align:center;
-   padding:16px 20px;
-   color:#222;
-   background-color:#fff;
-   border-radius:5px;
-   margin: 15px;
-   box-shadow: 0 1px 6px;
-}
-
-.large {
-   display: table;
-   table-layout: fixed;
-   text-align: center;
-   width: 100%;
-}
-
-.large1 {
-   font-size:24px;
-   font-weight:bold;
-   display: inline-block;
-   text-align:center;
-   padding:19px 25px;
-   color:#fff;
-   background-color:#00bcd4;
-   border-radius:7px;
-   margin: 15px;
-}
-
-.large2 {
-   font-size:24px;
-   font-weight:bold;
-   display: inline-block;
-   text-align:center;
-   padding:19px 25px;
-   color:#fff;
-   background-color:#ff4081;
-   border-radius:7px;
-   margin: 15px;
-}
-
-.large3 {
-   font-size:24px;
-   font-weight:bold;
-   display: inline-block;
-   text-align:center;
-   padding:19px 25px;
-   color:#fff;
-   background-color:#e5e5e5;
-   border-radius:7px;
-   margin: 15px;
-}
-
-.large4 {
-   font-size: 24px;
-   font-weight:bold;
-   display: inline-block;
-   text-align:center;
-   padding:19px 25px;
-   color:#222;
-   background-color:#fff;
-   border-radius:7px;
-   margin: 15px;
-   box-shadow: 0 1px 6px;
-}
 /* 回答はここに書いて

@@ -1,53 +1,50 @@
 @charset "UTF-8";
 
 .wrapper {
-   padding: 20px;
+  padding: 20px;
 }
 
 .title {
-   padding: 30px 0;
-   font-weight: bold;
-   font-size: 30px;
-   text-align: center;
+  padding: 30px 0;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
 }
 
 .title--sub {
-   margin-bottom: 10px;
-   font-size: 18px;
-   text-align: center;
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-align: center;
 }
 
 .contents {
-   max-width: 900px;
-   margin: 0 auto;
-   padding: 20px;
-   background-color: #ECF1F2;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ecf1f2;
 }
 
 .clearfix::before,
 .clearfix::after {
-   content: "";
-   display: block;
-}
-
-.clearfix::after {
-   clear: both;
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .contents__left {
-   float: left;
-   margin-right: 20px;
-   margin-bottom: 10px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 .contents__right {
-   float: right;
-   margin-left: 20px;
-   margin-bottom: 10px;
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 10px;
 }
 
 .text {
-   font-size: 18px;
-   line-height: 22px;
-   word-break: break-all;
+  font-size: 18px;
+  line-height: 22px;
+  word-break: break-all;
 }

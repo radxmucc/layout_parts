@@ -2,57 +2,45 @@
 
 /* 回答はここに書いてね */
 .q8 {
-   width: 100%;
-   background: #eeeeee;
-   display: table;
-   margin: 0 auto;
-   box-sizing: border-box;
+  width: 100%;
+  background: #eee;
+  display: table;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.cell {
+  display: table-cell;
+  text-align: center;
+  padding: 20px 0;
 }
 
 .box1 {
-   width: 100px;
-   display: table-cell;
-   text-align: center;
-   padding: 20px;
-   background: #fdc8b8;
+  width: 100px;
+  background: #fdc8b8;
 }
 
 .box2 {
-   display: table-cell;
-   text-align: center;
-   padding: 20px;
-   background: #e0abd9;
+  background: #e0abd9;
 }
 
 .box3 {
-   width: 100px;
-   display: table-cell;
-   text-align: center;
-   padding: 20px;
-   background: #b6d8ed;
+  width: 100px;
+  background: #b6d8ed;
 }
 
 .box4 {
-   width: 15%;
-   display: table-cell;
-   text-align: center;
-   padding: 20px 0px;
-   background: #e5d32e;
+  width: 15%;
+  background: #e5d32e;
 }
 
 .box5 {
-   width: 15%;
-   display: table-cell;
-   text-align: center;
-   padding: 20px 0px;
-   background: #e4e67c;
+  width: 15%;
+  background: #e4e67c;
 }
 
 .box6 {
-   width: 500px;
-   display: table-cell;
-   text-align: center;
-   padding: 20px 0px;
-   background: #8fdcad;
+  width: 500px;
+  background: #8fdcad;
 }
 /* 回答はここに書いてね */
