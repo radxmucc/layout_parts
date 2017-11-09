@@ -46,7 +46,7 @@
 
 .q7_radio_btn {
    display: none;
-  }
+}
 
 .q7_radio_parts {
    position: relative;
@@ -80,11 +80,11 @@
 }
 
 .q7_check {
-  cursor: pointer;
+   cursor: pointer;
 }
 
 .q7_check_btn {
-  display: none;
+   display: none;
 }
 
 .check_parts {
