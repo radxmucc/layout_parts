@@ -42,7 +42,7 @@
    height: 100px;
    position: absolute;
    top: 120px;
-   left: 280px;
+   right: 120px;
    background: #7084de;
    z-index: 2;
    font-weight: bold;
@@ -56,7 +56,7 @@
    height: 100px;
    position: absolute;
    top: 200px;
-   left: 360px;
+   right: 40px;
    background: #d0ecea;
    z-index: 3;
    font-weight: bold;
@@ -70,7 +70,7 @@
    height: 100px;
    position: absolute;
    top: 280px;
-   left: 280px;
+   right: 120px;
    background: #8b7e5a;
    z-index: 4;
    font-weight: bold;
