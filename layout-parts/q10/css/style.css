@@ -37,11 +37,7 @@
   width: 300px;
 }
 
-.clearfix::before {
-  content: "";
-  display: table;
-}
-
+.clearfix::before
 .clearfix::after {
   content: "";
   display: table;
